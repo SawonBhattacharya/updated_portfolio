@@ -1,10 +1,7 @@
 function sendEmail() { 
     Email.send({ 
-      Host: "smtp.gmail.com",
-      Username: "bhattasawon17@gmail.com",
-      Password: "llonmtlmlvpnnzzi",
+      SecurityToken:"a5639d4b-9814-4c5a-9395-55dfabff39d0",
       To: "bhattasawon17@gmail.com",
-      Subject: "Mail from Portfolio",
       Name: document.getElementById('contactName').value,
       From: document.getElementById('contactEmail').value,
       Subject:document.getElementById('contactSubject').value,
