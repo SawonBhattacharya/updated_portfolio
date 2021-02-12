@@ -11,5 +11,6 @@ function sendEmail() {
     })
     .then(function (message) { 
       alert("mail sent successfully") 
+      console.log(Email.Body)
     }); 
  }
